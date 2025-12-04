@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Data</title>
+</head>
+
+<body>
+    <h1>Enter Your Data for Intership:</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter Your name</label>
+            <input type="text" id="username" name="username" placeholder="Enter UR Name" autofocus>
+        </div>
+        <div>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="Yes">
+            <label for="subscribe">Notification</label>
+        </div>
+        <div>
+            <textarea name="comment" id="comment" rows="4" cols="40"></textarea>
+            <br>
+            <label for="comment">Enter your
+                Area</label>
+        </div>
+        <br>
+        <caption>Enter Your Designation</caption>
+        <div>
+            <select name="Role">
+                <option value="Data Science">Data Science</option>
+                <option value="Web Developer">Web Developer</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
