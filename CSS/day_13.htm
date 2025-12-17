@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --color: rgb(54, 192, 107);
+            --tejas: rgb(28, 19, 97);
+        
+        }
+        .con1{
+            /* background-color: aqua; */
+            background-color: var(--color);
+        }
+        .con2{
+            /* background-color: rgb(148, 138, 228); */
+            background-color: var(--tejas);
+        }
+        ul li:first-child{
+            --color: rgb(194, 206, 24);
+            background-color: var(--color);
+
+        }
+        ul{
+            display: flex;}
+        ul li{
+            padding: 40px;
+            list-style: none;
+            font-size: large;
+            border: 2px solid black;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="con1">
+        <ul>
+            <li>Box1</li>
+            <li>Box2</li>
+            <li>Box3</li>
+        </ul>
+    </div>
+    <div class="con2">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, sunt. Magni officiis commodi aperiam nostrum quis iste! Aspernatur, obcaecati! Vero voluptatem aut laboriosam, labore repellat enim aperiam quo est harum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odio facere voluptatum dicta molestias ipsam ipsum quae! Officiis dolore labore placeat, eligendi ratione molestias commodi vitae. Nesciunt, accusamus sunt dicta molestias similique iste. Maxime, id? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolor asperiores cupiditate architecto necessitatibus! Eum voluptatem maiores sit quibusdam inventore architecto mollitia nemo similique aperiam, at saepe maxime facilis eligendi itaque voluptas, modi, earum neque omnis porro assumenda necessitatibus suscipit? Obcaecati commodi delectus facere unde ad non porro voluptatem. Perferendis, odit! Autem, corporis expedita!
+        </p>
+    </div>
+</body>
+</html>
