@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            border: 2px solid black;
+            height: 500px;
+            width: 600px;
+            background-color: bisque;
+            display: flex;
+
+
+        }
+
+        .box {
+            border: 2px solid rgb(36, 205, 10);
+            height: 50px;
+            width: 60px;
+            background-color: rgb(245, 245, 248);
+            /* transition-property: background-color,transform,;
+            transition-duration: 3s;
+            transition-timing-function: cubic-bezier(0, 0.01, 0, 1.01);
+            transition-delay: 2s; */
+            transition: all,3s,ease-out,1s;
+        }
+
+        .trans {
+            transform: translatex(10vw) translatey(10vh);
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box trans">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
